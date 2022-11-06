@@ -1,0 +1,1045 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+
+:root {
+    --blue--color: #3ec1d5;
+    --primary--color: rgba(68, 68, 68)
+}
+
+
+
+
+* {
+    font-family: 'Open Sans';
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Raleway", sans-serif;
+}
+
+
+
+
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+.active {
+    color: var(--blue--color);
+}
+
+hgroup {
+    color: #444;
+}
+
+
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.main-header {
+    background-image: url(./mainpic.jpg);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7)), url(./mainpic.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.8);
+    height: 80px;
+    color: white;
+    position: sticky;
+    top: 0px;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+header .container .logo {
+    padding-top: 15px;
+    font-size: 17px;
+}
+
+header .container .list ul {
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    padding-top: 25px;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+}
+
+header a:hover {
+    color: var(--blue--color);
+    transition: 0.5s;
+}
+  
+
+header .container .list ul li ul:hover{display: contents;}
+
+header .container .list ul li ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    width:130px;
+    display: none;
+}
+
+
+
+
+
+/* Pjesa Main Header  */
+
+
+
+main .content {
+    height: 600px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+
+
+main .containers .content a {
+    background-color: var(--blue--color);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 50px;
+    padding: 10px;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+
+
+main .containers .content a:hover {
+    color: var(--blue--color);
+    background-color: white;
+    transition: 0.5s;
+}
+
+/* Pjesa about us */
+
+.title .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 68px;
+    margin-bottom: 68px;
+    font-size: 26px;
+}
+
+
+.aboutus .container .card {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.aboutus .container .card img {
+    width: 600px;
+    height: auto;
+}
+
+.aboutus .container .card .txt {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.aboutus .container .card ul {
+    list-style-position: inside;
+    list-style-type: '✔️';
+}
+
+.aboutus .container .card ul li {
+    padding: 6px;
+}
+
+/* Pjesa Services */
+
+
+.ourservices .container .content {display: flex;
+justify-content: center;
+justify-content:space-between;
+text-align: center;}
+
+
+.ourservices .container .content .card {
+    display: flex;
+flex-direction: column;
+align-items: center;
+width: 480px;
+height: 190px;}
+
+.ourservices .container .content .card hgroup{display: flex;
+flex-direction: column;
+align-items: center;
+justify-content:space-between;}
+
+
+.ourservices .container .content h4 {
+    font-size: 22px;
+    color: #444;
+    font-weight: 400;
+}
+
+.ourservices .container .content h4:hover {
+    color: var(--blue--color);
+}
+
+
+.ourservices .container .content i {
+    font-size: 28px;
+}
+
+.ourservices .container .content i:hover {
+    color: var(--blue--color);
+}
+
+
+
+
+
+/* Pjesa ourteam */
+
+.pht {
+    width: 300px;
+}
+
+
+.ourteam .container .content .pht:hover {
+    filter: brightness(33%);
+    transition: 0.5s;
+}
+
+.ourteam .container {
+    margin-bottom: 20PX;
+}
+
+.ourteam .container .content {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+
+.ourteam .container .content .cardi {
+    border: #ddd solid 1px;
+}
+
+.ourteam .container .content .carda {
+    border: #ddd solid 1px;
+}
+
+.ourteam .container .content .cardb {
+    border: #ddd solid 1px;
+}
+
+
+.ourteam .container .content .cardc {
+    border: #ddd solid 1px;
+}
+
+.ourteam .container .content .cardi .hg {
+    height: 70px;
+}
+
+.ourteam .container .content h4 {
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    font-weight: lighter;
+}
+
+.ourteam .container .content p {
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    font-size: 15px;
+}
+
+/* Pjesa working with us  */
+
+.workingwithus .containers {
+   margin-top: 100px;
+
+}
+
+.workingwithus .containers .content {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.workingwithus .containers .content .card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    padding-left: 40px;
+    background-image: url(./greeeeeekkk.jpg);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)), url(./greeeeeekkk.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 790px;
+    height: 400px;
+    color: whitesmoke;
+    
+}
+
+.workingwithus .containers .content .card h2,h4 {font-weight: lighter;}
+
+.workingwithus .containers .content .card a {
+    color: wheat;
+    text-decoration: none;
+    border: 1px solid white;
+    border-radius: 50px;
+    font-size: 18px;
+    padding: 8px;
+    padding-left:30px;
+    padding-right: 30px;
+    font-weight: bold;
+}
+
+.workingwithus .containers .content .card a:hover {
+    background-color: var(--blue--color);
+    border: 0px solid rebeccapurple;
+    transition: 0.5s;
+}
+
+.workingwithus .containers .content .alt {
+    width: fit-content;
+    height: 400px;
+}
+
+
+
+/* Pjesa Our protofolio */
+
+.ourportofolio .container .buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+.ourportofolio .container .buttons .active {
+    background-color: var(--blue--color);
+    border: 1px solid var(--blue--color);
+    color: white;
+    font-size: 14px;
+    border-radius: 60px;
+    padding: 9px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+.ourportofolio .container .button {
+
+    border: 1px solid #444;
+
+    font-size: 12px;
+    border-radius: 60px;
+    padding: 9px;
+    padding-left: 20px;
+    padding-right: 20px
+}
+
+.ourportofolio .container .button:hover {background-color: var(--blue--color);
+color: white;
+border: 0px;
+transition: 0.5s;}
+
+.ourportofolio .container .img{
+    display: flex;
+    justify-content:space-evenly;
+    padding-top: 50px;
+}
+
+
+.ourportofolio .container .img .box {
+width: 350px;
+display: flex;
+flex-direction: column;
+}
+
+.ourportofolio .container .box:hover { filter: brightness(33%);
+transition: 0.4s;}
+
+/* Pjesa Pricing Table */
+
+
+.table .container{margin-bottom:200px;}
+
+
+.table .container .cards {display: flex;
+justify-content: space-evenly;
+}
+
+
+.table .container .card{display: flex;
+    flex-direction: column;
+    border: 0.2px solid rgb(211, 202, 202);
+width: 360px;
+height:600px;
+padding-top: 25px;
+}
+
+.table .container .card ul {list-style-position: inside;
+border: px #444;
+color: rgb(114, 113, 113);
+font-weight: bold;}
+
+.table .container .card ul li {border-bottom: 1px solid;
+height: 50px;
+list-style-type: "✔️";
+padding-left:10px;}
+
+.table .container .card ul .del {color: #3ec1d5;
+list-style-type:'❌';}
+
+.table .container .card h1 {color:#444;
+padding-left: 120px;}
+
+.table .container .card p { font-size:14px;
+    font-weight: bold;
+padding-left: 130px;}
+
+.table .container .card span {
+    font-weight: bold;
+    width:fit-conten;
+    background-color: var(--blue--color);
+    color: white;
+    display:inline-block;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(5deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg)
+}
+
+
+
+.table .container .cards .card button {background-color:var(--blue--color);
+color: white;
+border-radius: 50px;
+border: #3ec1d5;
+width:130px;
+height:40px;
+padding-top: 11px;
+padding-left: 15px;
+
+display: flex;
+flex-direction:row;
+justify-self: flex-start;}
+
+.table .container .cards .card button:hover {background-color: #444;}
+
+.table .container .cards .card .buttons {display: flex;
+flex-direction: column;
+align-items: center;
+padding-top: 15px;
+padding-left: 15p;}
+
+
+/* Pjesa review */
+
+.review .containers {background-image: url(./greeeeeekkk.jpg);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7)), url(./greeeeeekkk.jpg);
+height:400px;
+width: 1200pxs;
+background-repeat: no-repeat;
+background-size:cover;
+background-attachment:local;
+object-fit: cover;
+ ;}
+
+.review .containers .content { margin-top:-120px;
+    height: 300px;
+    display: flex;
+flex-direction:column;
+align-items:center;
+justify-content:space-around;
+color: wheat;
+}
+
+.review .containers .content h4 {font-weight: bold;
+font-size: 23px;}
+
+.review .containers .content h3 {font-size: 18px;
+font-weight: lighter;}
+
+.review .content img {width: 100px;
+border-radius: 100px;
+border:6px solid rgba(255, 255, 255, 0.15);
+}
+
+/* Pjesa latest news */
+
+
+.latestnews .container {
+height: 700px;}
+
+.latestnews .container  img {width: 430px;
+    padding-left: 5px;
+}
+
+.latestnews .container .content .text {display: flexs;
+flex-direction: column;
+height:400px;
+}
+
+
+.latestnews .container .php {display: flex;
+    flex-direction:row;
+    justify-content:s;
+height: 800px;}
+
+.latestnews .container .content .text h4 {color:#444;
+font-size: 28px;}
+
+
+.latestnews .container .content .text p {color: #444;
+font-weight: bold;}
+
+.latestnews .container .content .text button {background-color:white;
+    color:#444;
+    border-radius: 50px;
+    border:#444 solid 1px;
+    width:130px;
+    height:40px;
+    padding-top: 9px;
+    padding-left: 19px;
+    font-weight: bold;
+    font-size:15px;
+    
+    display: flex;
+    flex-direction:row;
+    justify-self: flex-start;}
+    
+
+    .latestnews .container .content .text button:hover   {background-color:var(--blue--color);
+    color: white;
+border: none;
+transition: 0.5s;}
+
+/* Pjesa Welcome to our Buisness0 */
+
+.welcome .containers{height: 200px;}
+
+.welcome .containers .content {background-color: #3ec1d5;
+height: 130px;
+display: flex;
+justify-content: center;
+align-items: center;
+gap:50px;
+color:white;
+font-size: 20px;
+font-weight: bold;}
+
+.welcome .containers .content  button {background-color:white;
+    color:var(--blue--color);
+    border-radius: 50px;
+    border:white solid 1px;
+    width:130px;
+    height:40px;
+    padding-top: 9px;
+    padding-left: 19px;
+    font-weight: bolder;
+    font-size:15px;
+    
+    display: flex;
+    flex-direction:row;
+    justify-self: flex-start;}
+
+    .welcome .containers .content  button:hover {background-color: var(--blue--color);
+    color: white;
+transition: 0.5s;}
+
+/* Pjesa Contact US */
+
+
+
+.contact .container .content {display: flex;
+justify-content: center;
+justify-content: space-around;
+color: #444;
+font-weight: bold;}
+
+.contact .container .content .info {display: flex;
+    flex-direction: column;
+    align-items:center;}
+
+    .contact .container .content .info p {display: flex;
+    flex-direction: column;
+align-items: center;}
+
+.contact .container .content .info i {color:var(--blue--color);
+font-size:25px;}
+
+/* pjesa MAP */
+
+.info .container {margin-top: 25px;
+    margin-bottom: 35px;
+    display: flex;
+gap: 20px;}
+
+.info .container .content input{display: flex;
+flex-direction:row;
+align-items: flex-start;
+justify-content:flex-end;
+width:500px;
+height: 40px;}
+
+.info .container .content .button {background-color:white;
+    color:#444;
+    border-radius: 50px;
+    border:#444 solid 1px;
+    width: 110px;
+    padding-right: 20px;
+    
+    font-weight: bolder;
+    font-size:20px;
+margin-left:190px;}
+
+/* Pjesa footer */
+
+
+.footer .container .content {display: flex;
+align-items: center;
+justify-content: space-between;
+gap: 20px;}
+
+.footer .container .content .carde {width: 570px;}
+
+.footer .container .content .carde i {color: black;
+font-size: 20px;}
+
+.footer .container .content .card img {width: 150px;}
+
+.footer .container .content span {color: #3ec1d5;
+font-weight: bolder;}
+
+
+.footer .container .content h4 {letter-spacing: 2px;
+
+color: #444;
+font-size: 18px;}
+
+/* Pjesa fundit */
+
+.terms .containers {
+display: flex;}
+
+.terms .containers .content{
+display: flex;
+flex-direction: column;
+height:100px;
+width:1500px;
+justify-content:center;
+align-items: center;
+color: #444;}
+
+.terms .containers .content span {color: #3ec1d5;
+font-weight: bold;}
+
+
+.terms .containers .button  {background-color:var(--blue--color);
+width: 30px;
+height: 40px;
+display: flex;
+align-items: center;
+padding-left: 9px;
+font-size: 20px;
+color:white ;
+position:fixed;
+top: 650px;
+left: 1470px;}
+
+.terms .containers a {color: wheat;}
+
+
+
+/* Responsiveeee */
+
+
+
+
+
+
+/* Responsive */
+
+
+@media (max-width :400px) {
+
+    
+* {
+    font-family: 'Open Sans';
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Raleway", sans-serif;
+}
+
+
+
+
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+.active {
+    color: var(--blue--color);
+}
+
+hgroup {
+    color: #444;
+}
+
+
+
+.container {
+    width:90%;
+    margin: 0 auto;
+}
+
+.main-header {
+    background-image: url(./mainpic.jpg);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7)), url(./mainpic.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.8);
+    height: 80px;
+    color: white;
+    position: sticky;
+    top: 0px;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+header .container .logo {
+    padding-top: 15px;
+    font-size: 17px;
+}
+
+header .container .list ul {
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    padding-top: 25px;
+    display: none;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+}
+
+header a:hover {
+    color: var(--blue--color);
+    transition: 0.5s;
+}
+  
+
+header .container .list ul li ul:hover{display: contents;}
+
+header .container .list ul li ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    width:130px;
+    display: none;
+}
+
+
+
+
+
+/* Pjesa Main Header  */
+
+
+
+main .content {
+    width:360px;
+    height: 600px;
+    color: white;
+    gap: 25px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    padding-left: 15px;
+}
+
+
+
+main .containers .content a {
+    background-color: var(--blue--color);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 50px;
+    padding: 10px;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+
+
+main .containers .content a:hover {
+    color: var(--blue--color);
+    background-color: white;
+    transition: 0.5s;
+}
+
+/* Pjesa about us */
+
+.title .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 68px;
+    margin-bottom: 68px;
+    font-size: 26px;
+}
+
+
+.aboutus .container .card {
+    display: flex;
+   flex-direction: column;
+    gap: 20px;
+    font-size: 15px;
+}
+
+.aboutus .container .card img {
+    width: 350px;
+    height: auto;
+}
+
+.aboutus .container .card .txt {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.aboutus .container .card ul {
+    list-style-position: inside;
+    list-style-type: '✔️';
+}
+
+.aboutus .container .card ul li {
+    padding: 6px;
+}
+
+/* Pjesa Services */
+
+
+.ourservices .container .content {display: flex;
+justify-content: center;
+justify-content:space-between;
+text-align: center;}
+
+
+.ourservices .container .content .card {
+    display: flex;
+flex-direction: column;
+align-items: center;
+width: px;
+height: 380px;}
+
+.ourservices .container .content .card hgroup{display: flex;
+flex-direction: column;
+align-items: center;
+justify-content:space-between;}
+
+
+.ourservices .container .content h4 {
+    font-size: 22px;
+    color: #444;
+    font-weight: 400;
+}
+
+.ourservices .container .content h4:hover {
+    color: var(--blue--color);
+}
+
+
+.ourservices .container .content i {
+    font-size: 28px;
+}
+
+.ourservices .container .content i:hover {
+    color: var(--blue--color);
+}
+
+
+
+
+
+/* Pjesa ourteam */
+
+.pht {
+    width: 300px;
+}
+
+
+.ourteam .container .content .pht:hover {
+    filter: brightness(33%);
+    transition: 0.5s;
+}
+
+.ourteam .container {
+    margin-bottom: 20PX;
+}
+
+.ourteam .container .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+
+.ourteam .container .content .cardi {
+    border: #ddd solid 1px;
+}
+
+.ourteam .container .content .carda {
+    border: #ddd solid 1px;
+}
+
+.ourteam .container .content .cardb {
+    border: #ddd solid 1px;
+}
+
+
+.ourteam .container .content .cardc {
+    border: #ddd solid 1px;
+}
+
+.ourteam .container .content .cardi .hg {
+    height: 70px;
+}
+
+.ourteam .container .content h4 {
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    font-weight: lighter;
+}
+
+.ourteam .container .content p {
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    font-size: 15px;
+}
+
+/* Pjesa working with us  */
+
+.workingwithus .containers {
+   margin-top: 100px;
+
+}
+
+.workingwithus .containers .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.workingwithus .containers .content .card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    padding-left: 40px;
+    background-image: url(./greeeeeekkk.jpg);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)), url(./greeeeeekkk.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 400px;
+    height:200px;
+    color: whitesmoke;
+    
+}
+
+.workingwithus .containers .content .card h2,h4 {font-weight: lighter;}
+
+.workingwithus .containers .content .card a {
+    color: wheat;
+    text-decoration: none;
+    border: 1px solid white;
+    border-radius: 50px;
+    font-size: 18px;
+    padding: 8px;
+    padding-left:30px;
+    padding-right: 30px;
+    font-weight: bold;
+}
+
+.workingwithus .containers .content .card a:hover {
+    background-color: var(--blue--color);
+    border: 0px solid rebeccapurple;
+    transition: 0.5s;
+}
+
+.workingwithus .containers .content .alt {
+    width:400px;
+    height:auto;
+}
+
+}
